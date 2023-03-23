@@ -10,12 +10,12 @@ body {
 }
 
 ::-moz-selection {
-  background-color: rgb(116, 22, 22);
+  background-color: rgb(174, 23, 23);
   color: white;
 }
 
 ::selection {
-  background-color: rgb(116, 22, 22);
+  background-color: rgb(174, 23, 23);
   color: white;
 }
 
@@ -214,11 +214,14 @@ h4 {
   width: 480px;
   height: 480px;
   background-color: #AAA;
-  background-image: url(img/services.jpg);
+  background-image: url(img/img3.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #services p {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .services-content {
@@ -228,6 +231,18 @@ h4 {
   gap: 20%;
   margin-top: 9rem;
   padding-bottom: 10rem;
+}
+
+.service-container a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #AAA;
+  font-weight: 500;
+  transition: 200ms ease-in-out;
+}
+
+.service-container a:hover {
+  color: rgb(174, 23, 23);
 }
 
 #contact {
