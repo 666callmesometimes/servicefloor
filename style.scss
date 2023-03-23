@@ -2,11 +2,11 @@
     padding: 0;
     margin: 0;
     font-family: 'DM Sans', 'Segoe UI', sans-serif;
-    scroll-behavior: smooth;
-    
+    scroll-behavior: smooth; 
 }
 body{
     background: linear-gradient(180deg,rgba(16,16,16,1) 51%,  rgba(255,255,255,1) 49%);
+    overflow-x: hidden;
 }
 ::selection{
     background-color: rgb(174, 23, 23);
