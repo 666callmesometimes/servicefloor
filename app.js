@@ -1,7 +1,8 @@
 const callButton = document.querySelector('#call');
 const menuBtn = document.querySelector("#menu-burger");
 const nav = document.querySelector("nav");
-
+const popUp = document.querySelector("#popup");
+const closePopUp = document.querySelector("#close-popup");
 
 callButton.addEventListener("mouseover" , () => {
     callButton.style.backgroundColor="white";
@@ -18,4 +19,8 @@ callButton.addEventListener("mouseout" , () => {
 
 menuBtn.addEventListener('click' , () => {
     nav.classList.toggle("off");
+});
+
+closePopUp.addEventListener("click" , () => {
+    popUp.style.display="none";
 });

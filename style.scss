@@ -280,7 +280,7 @@ footer a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
+    gap: 8rem;
 }
 #home-subpages{
     background-image: url(img/bg.jpg);
@@ -318,8 +318,22 @@ footer a:hover{
 #transport h5{
     font-size: 20px;
 }
-
-
+#popup{
+    position: fixed;
+    background-color: #B71C20;
+    color: white;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#close-popup{
+    cursor: pointer;
+}
 
 
 
@@ -463,6 +477,16 @@ footer a:hover{
     .transport-containers{
         flex-direction: column;
     }
+    #producers{
+        background-color: white;
+        height: 100px;
+        position: relative;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+    }
 }
 @media screen and (max-width:900px) {
     h1{
@@ -476,6 +500,9 @@ footer a:hover{
         gap: 10rem;
         flex-direction: column;
         align-items: center;
+    }
+    #producers img{
+        height:2rem;
     }
 }
 @media screen and (max-width:610px) {
@@ -515,7 +542,6 @@ footer a:hover{
     .services-img{
         width: 80vw;
         height: 80vw;
-
     }
 }
 @media screen and (max-width:520px) {
@@ -525,6 +551,9 @@ footer a:hover{
     }
     input{
         width:80vw;
+    }
+    #producers{
+        gap: 2%;
     }
 }
 @media screen and (max-width:400px) {
@@ -564,6 +593,9 @@ footer a:hover{
     }
     h2{
         font-size: 32px;
+    }
+    #producers img{
+        height:1.5rem;
     }
 }
 
