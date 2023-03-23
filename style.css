@@ -556,6 +556,10 @@ footer a:hover {
   .service-container {
     width: -moz-fit-content;
     width: fit-content;
+    margin-left: 2rem;
+  }
+  .service-container h4 {
+    width: 90%;
   }
   .service-container p {
     width: 90%;
