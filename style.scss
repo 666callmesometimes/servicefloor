@@ -5,18 +5,32 @@
     scroll-behavior: smooth; 
 }
 body{
-    background: linear-gradient(180deg,rgba(16,16,16,1) 51%,  rgba(255,255,255,1) 49%);
+    background: linear-gradient(0deg,rgba(16,16,16,1) 51%,  rgba(255,255,255,1) 49%);
+    background-repeat: no-repeat;
     overflow-x: hidden;
+    background-color: #303030;
 }
 ::selection{
     background-color: rgb(174, 23, 23);
     color: white;
 }
 #home{
-    background-image: url(img/bg.jpg);
+    /*background-image: url(img/bgdarkk.jpg);*/
+    /*background-image: url(img/bg.jpg);*/
+
+// 300 linijka zmienione bg na alt3***
+    
+    background-image: url(img/alt3.jpg);
     height:100vh;
     background-size: cover;
     background-position: center;
+}
+h1{
+    /*background-color: black;*/
+    color: white;
+    width: 850px;
+    padding: 2px;
+    font-size: 4rem;
 }
 header{
     position: fixed;
@@ -63,13 +77,6 @@ nav a:hover{
 main{
     position: relative;
     top: 80px;
-}
-h1{
-    color: white;
-    background-color: black;
-    width: 850px;
-    padding: 2px;
-    font-size: 4rem;
 }
 .callout-btns a{
     color: black;
@@ -224,6 +231,16 @@ input{
     width: 400px;
     height: 2rem;
 }
+input[type="submit"]{
+    margin-top: 2rem;
+    border: none;
+    background-color: #B71C20;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+input[type="submit"]:hover{
+opacity: 0.6;
+}
 input:focus{
     outline: none;
     border-bottom: 1px solid #AAA;
@@ -283,7 +300,8 @@ footer a:hover{
     gap: 8rem;
 }
 #home-subpages{
-    background-image: url(img/bg.jpg);
+    /*background-image: url(img/bg.jpg);*/
+    background-image: url(img/alt3.jpg);
     height:25vh;
     background-size: cover;
     background-position: center;
@@ -330,6 +348,8 @@ footer a:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 6px;
+    box-sizing: border-box;
 }
 #close-popup{
     cursor: pointer;
@@ -624,3 +644,16 @@ footer a:hover{
     }
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: white;
+  }
