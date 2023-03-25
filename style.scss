@@ -265,11 +265,12 @@ form h3{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-top: 2rem;
 }
 .contact-containers{
     display: flex;
     justify-content: center;
-    gap: 32rem;
+    gap: 16rem;
 }
 hr{
     border: 1px solid #303030;
