@@ -59,6 +59,7 @@ nav {
   display: flex;
   width: 640px;
   justify-content: space-between;
+  z-index: 999;
 }
 
 nav a {
@@ -175,6 +176,21 @@ main {
 .content-img-2,
 .content-img-3 {
   background-color: #AAA;
+}
+
+.work-img-1 {
+  background-image: url(img/work2.jpg);
+  background-size: cover;
+}
+
+.work-img-2 {
+  background-image: url(img/work3.jpg);
+  background-size: cover;
+}
+
+.work-img-3 {
+  background-image: url(img/work1.jpg);
+  background-size: cover;
 }
 
 h2 {
@@ -414,7 +430,7 @@ footer a:hover {
   width: 40rem;
   height: 30rem;
   background-color: #AAA;
-  background-image: url(img/transport.jpg);
+  background-image: url(img/transportt.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -550,6 +566,7 @@ footer a:hover {
     height: 36px;
     cursor: pointer;
     right: 2rem;
+    z-index: 999;
   }
   .off {
     display: none;
