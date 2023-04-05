@@ -178,6 +178,21 @@ main {
   background-color: #AAA;
 }
 
+.content-img-1 {
+  background-image: url(img/podlogi1.jpg);
+  background-size: cover;
+}
+
+.content-img-2 {
+  background-image: url(img/podlogi3.jpg);
+  background-size: cover;
+}
+
+.content-img-3 {
+  background-image: url(img/podlogi2.jpg);
+  background-size: cover;
+}
+
 .work-img-1 {
   background-image: url(img/work2.jpg);
   background-size: cover;
