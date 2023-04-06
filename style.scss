@@ -133,9 +133,15 @@ main{
 .work-img-1,
 .work-img-2,
 .work-img-3,
-.content-img-1,
-.content-img-2,
-.content-img-3{
+.floor-img-1,
+.floor-img-2,
+.floor-img-3,
+.door-img-1,
+.door-img-2,
+.door-img-3,
+.pos-img-1,
+.pos-img-2,
+.pos-img-3{
     width: 500px;
     height: 320px;
     background-color: #303030;
@@ -144,20 +150,30 @@ main{
 .content-containers{
     padding-bottom: 120px;
 }
-.content-img-1,
-.content-img-2,
-.content-img-3{
+.floor-img-1,
+.floor-img-2,
+.floor-img-3{
     background-color: #AAA;
 }
-.content-img-1{
+.door-img-1,
+.door-img-2,
+.door-img-3{
+    background-color: #AAA;
+}
+.pos-img-1,
+.pos-img-2,
+.pos-img-3{
+    background-color: #AAA;
+}
+.floor-img-1{
     background-image: url(img/podlogi1.jpg);
     background-size: cover;
 }
-.content-img-2{
+.floor-img-2{
     background-image: url(img/podlogi3.jpg);
     background-size: cover;
 }
-.content-img-3{
+.floor-img-3{
     background-image: url(img/podlogi2.jpg);
     background-size: cover;
 }
@@ -171,6 +187,31 @@ main{
 }
 .work-img-3{
     background-image: url(img/work1.jpg);
+    background-size: cover;
+}
+.door-img-1{
+    background-image: url(img/door.jpg);
+    background-size: cover;
+}
+.door-img-2{
+    background-image: url(img/door2.png);
+    background-size: cover;
+    background-position: bottom;
+}
+.door-img-3{
+    background-image: url(img/door1.png);
+    background-size: cover;
+}
+.pos-img-1{
+    background-image: url(img/pos.jpg);
+    background-size: cover;
+}
+.pos-img-2{
+    background-image: url(img/pos3.jpg);
+    background-size: cover;
+}
+.pos-img-3{
+    background-image: url(img/pos1.jpg);
     background-size: cover;
 }
 h2{
