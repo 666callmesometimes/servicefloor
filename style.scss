@@ -554,6 +554,11 @@ footer a:hover{
         left: 2rem;
         height: 2rem;
     }
+    header a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     #menu-burger{
         position: absolute;
         display: flex;
