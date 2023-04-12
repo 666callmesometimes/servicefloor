@@ -141,29 +141,18 @@ main{
 .door-img-3,
 .pos-img-1,
 .pos-img-2,
-.pos-img-3{
+.pos-img-3,
+.wyk-img-1,
+.wyk-img-2,
+.wyk-img-3{
     width: 500px;
     height: 320px;
     background-color: #303030;
     margin-bottom: 16px;
+    background-color: #AAA;
 }
 .content-containers{
     padding-bottom: 120px;
-}
-.floor-img-1,
-.floor-img-2,
-.floor-img-3{
-    background-color: #AAA;
-}
-.door-img-1,
-.door-img-2,
-.door-img-3{
-    background-color: #AAA;
-}
-.pos-img-1,
-.pos-img-2,
-.pos-img-3{
-    background-color: #AAA;
 }
 .floor-img-1{
     background-image: url(img/podlogi1.jpg);
@@ -182,7 +171,7 @@ main{
     background-size: cover;
 }
 .work-img-2{
-    background-image: url(img/work3.jpg);
+    background-image: url(img/modehpolmo.jpg);
     background-size: cover;
 }
 .work-img-3{
@@ -194,12 +183,12 @@ main{
     background-size: cover;
 }
 .door-img-2{
-    background-image: url(img/door2.png);
+    background-image: url(img/door3.jpg);
     background-size: cover;
     background-position: bottom;
 }
 .door-img-3{
-    background-image: url(img/door1.png);
+    background-image: url(img/door1.jpg);
     background-size: cover;
 }
 .pos-img-1{
@@ -214,6 +203,21 @@ main{
     background-image: url(img/pos1.jpg);
     background-size: cover;
 }
+.wyk-img-1{
+    background-image: url(img/wykladzina1.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.wyk-img-2{
+    background-image: url(img/wykladzina2.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.wyk-img-3{
+    background-image: url(img/wykladzina3.jpg);
+    background-size: cover;
+    background-position: center;
+}
 h2{
     font-size: 36px;
     padding-top: 100px;
@@ -224,6 +228,30 @@ h3{
 }
 h4{
     font-size: 24px;
+}
+#services h5{
+    font-size: 1rem;
+    padding-bottom: 7rem;
+    width: 60%;
+    font-weight: 500;
+}
+#content h5{
+    font-size: 1rem;
+    padding-bottom: 7rem;
+    font-weight: 500;
+}
+#content h5 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+}
+#content h5 a:hover{
+    color:#B71C20;
+}
+#services span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #work p{
     font-size: 1rem;
@@ -238,23 +266,23 @@ h4{
     text-align: left;
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 36px;
     width: fit-content;
 }
 .service-container{
     width: 530px;
 }
 .services-img{
-    width: 480px;
-    height: 480px;
+    width: 520px;
+    height: 520px;
     background-color: #AAA;
-    background-image: url(img/img3.jpg);
-    background-size: contain;
+    background-image: url(img/img1.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
 }
 #services p{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .services-content{
     display: flex;
@@ -443,8 +471,6 @@ footer a:hover{
 
 
 
-
-
 @media screen and (max-width: 1640px){
     .work-container,
     .content-container{
@@ -461,7 +487,10 @@ footer a:hover{
     .door-img-3,
     .pos-img-1,
     .pos-img-2,
-    .pos-img-3{
+    .pos-img-3,
+    .wyk-img-1,
+    .wyk-img-2,
+    .wyk-img-3{
         width: 390px;
         height: 250px;
     }
@@ -485,7 +514,10 @@ footer a:hover{
     .door-img-3,
     .pos-img-1,
     .pos-img-2,
-    .pos-img-3{
+    .pos-img-3,
+    .wyk-img-1,
+    .wyk-img-2,
+    .wyk-img-3{
         width: 500px;
         height: 320px;
     }
@@ -515,6 +547,19 @@ footer a:hover{
         scale:0.7;
     }
 }
+@media screen and (max-width:1160px) {
+    .footer-containers{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+        height:7rem;
+    }
+    footer img{
+        display: none;
+    }
+}
 @media screen and (max-width:1024px) {
     .services-content{
         display: flex;
@@ -525,7 +570,6 @@ footer a:hover{
     .services-img{
         width: 500px;
         height: 500px;
-
     }
     #call{
         display: none;
@@ -544,20 +588,20 @@ footer a:hover{
         background-color: rgba(0,0,0,0.8);
         font-size: xx-large;
     }
-    nav a{
-        color: white;
-        width:80%;
-        text-align: right;
-    }
     header img{
         position: absolute;
         left: 2rem;
         height: 2rem;
     }
-    header a{
+    #servicefloor-logo{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    nav a{
+        color: white;
+        width:80%;
+        text-align: right;
     }
     #menu-burger{
         position: absolute;
@@ -662,7 +706,10 @@ footer a:hover{
     .door-img-3,
     .pos-img-1,
     .pos-img-2,
-    .pos-img-3{
+    .pos-img-3,
+    .wyk-img-1,
+    .wyk-img-2,
+    .wyk-img-3{
         width: 370px;
         height: 250px;
     }
@@ -702,6 +749,19 @@ footer a:hover{
     #producers{
         gap: 2%;
     }
+    footer span{
+        flex-direction: column;
+    }
+    .footer-containers{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        flex-direction: row;
+        height: fit-content;
+        gap: 20%;
+    }
+    footer{
+        height: fit-content;
+    }
 }
 @media screen and (max-width:400px) {
     .work-container,
@@ -719,7 +779,10 @@ footer a:hover{
     .door-img-3,
     .pos-img-1,
     .pos-img-2,
-    .pos-img-3{
+    .pos-img-3,
+    .wyk-img-1,
+    .wyk-img-2,
+    .wyk-img-3{
         width: 300px;
         height: 180px;
     }
@@ -778,7 +841,10 @@ footer a:hover{
     .door-img-3,
     .pos-img-1,
     .pos-img-2,
-    .pos-img-3{
+    .pos-img-3,
+    .wyk-img-1,
+    .wyk-img-2,
+    .wyk-img-3{
         width: 100%;
         height: 160px;
     }
@@ -803,5 +869,5 @@ footer a:hover{
     border-radius: 5px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: white;
+    background: rgba(255, 255, 255, 0.3);
   }
