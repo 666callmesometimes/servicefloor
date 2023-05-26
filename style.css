@@ -244,19 +244,19 @@ main {
 }
 
 .wyk-img-1 {
-  background-image: url(img/wykladzina1.jpg);
+  background-image: url(img/wyk1.jpg);
   background-size: cover;
   background-position: bottom;
 }
 
 .wyk-img-2 {
-  background-image: url(img/wykladzina2.jpg);
+  background-image: url(img/wyk2.jpg);
   background-size: cover;
   background-position: bottom;
 }
 
 .wyk-img-3 {
-  background-image: url(img/wykladzina3.jpg);
+  background-image: url(img/wyk3.jpg);
   background-size: cover;
   background-position: center;
 }
